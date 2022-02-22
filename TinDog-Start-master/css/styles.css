@@ -6,8 +6,9 @@ body{
   color: #fff;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
+
 h1 {
   font-family: "Montserrat-blakc"sans-serif;
   font-size: 3.5rem;
@@ -57,13 +58,17 @@ p{
 /* Title image */
 
 .title-image{
-  width: 60%;
+  width: 25%;
   transform: rotate(25deg);
+  position: absolute;
+  margin-right: 30%;
 }
 /* Features */
 
 #features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .featured-box{
